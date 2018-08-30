@@ -28,6 +28,7 @@
 		DBEBC59D21385571002C25E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBEBC5A3213855CC002C25E3 /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 		DBEBC5A5213857F3002C25E3 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		DBEBC5A721386425002C25E3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		DBEBC5822138556F002C25E3 = {
 			isa = PBXGroup;
 			children = (
+				DBEBC5A721386425002C25E3 /* README.md */,
 				DBEBC58D2138556F002C25E3 /* Lifecycle */,
 				DBEBC58C2138556F002C25E3 /* Products */,
 			);
