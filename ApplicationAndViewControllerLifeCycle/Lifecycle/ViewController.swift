@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     
     override func loadView() {
         super.loadView()
+        print(view)
         print("\(#file) - \(#function)")
     }
     

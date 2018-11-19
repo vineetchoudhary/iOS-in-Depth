@@ -1,11 +1,3 @@
-//
-//  PrimeNumber.swift
-//  test
-//
-//  Created by Vineet Choudhary on 06/11/18.
-//  Copyright © 2018 Developer Insider. All rights reserved.
-//
-
 /*
  You are given an integer N. You need to print the series of all prime numbers till N.
  

@@ -1,11 +1,3 @@
-//
-//  TinyURL.swift
-//  test
-//
-//  Created by Vineet Choudhary on 08/11/18.
-//  Copyright © 2018 Developer Insider. All rights reserved.
-//
-
 import Foundation
 import CommonCrypto
 

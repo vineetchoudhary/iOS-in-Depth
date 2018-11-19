@@ -1,11 +1,3 @@
-//
-//  StringStartEnd.swift
-//  test
-//
-//  Created by Vineet Choudhary on 09/11/18.
-//  Copyright © 2018 Developer Insider. All rights reserved.
-//
-
 import Foundation
 
 func startStringStartEnd() {

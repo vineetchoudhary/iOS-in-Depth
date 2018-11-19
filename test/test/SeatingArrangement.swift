@@ -1,11 +1,3 @@
-//
-//  SeatingArrangement.swift
-//  test
-//
-//  Created by Vineet Choudhary on 06/11/18.
-//  Copyright © 2018 Developer Insider. All rights reserved.
-//
-
 /*
  Akash and Vishal are quite fond of travelling. They mostly travel by railways. They were travelling in a train one day and they got interested in the seating arrangement of their compartment. The compartment looked something like
  
