@@ -43,12 +43,16 @@ extension BinaryTree: CustomStringConvertible {
     }
 }
 
-var binaryTree: BinaryTree<Int> = .empty
-binaryTree.insert(newValue: 4)
-binaryTree.insert(newValue: 3)
-binaryTree.insert(newValue: 5)
-binaryTree.insert(newValue: 9)
-binaryTree.insert(newValue: 1)
-binaryTree.insert(newValue: 6)
+func startBT()
+{
+    var binaryTree: BinaryTree<Int> = .empty
+    binaryTree.insert(newValue: 4)
+    binaryTree.insert(newValue: 3)
+    binaryTree.insert(newValue: 5)
+    binaryTree.insert(newValue: 9)
+    binaryTree.insert(newValue: 1)
+    binaryTree.insert(newValue: 6)
+    
+    print(binaryTree)
 
-print(binaryTree)
+}
