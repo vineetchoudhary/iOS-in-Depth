@@ -1,3 +1,3 @@
 import Foundation
 
-startStack()
+startStringContains()
