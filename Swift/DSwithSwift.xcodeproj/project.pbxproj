@@ -13,6 +13,7 @@
 		DB546BBA2194171C00685C3E /* TinyURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB546BB92194171C00685C3E /* TinyURL.swift */; };
 		DB74F49A21A5C6A10078AD86 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB74F49921A5C6A10078AD86 /* Queue.swift */; };
 		DB74F49C21A5CA050078AD86 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB74F49B21A5CA050078AD86 /* Stack.swift */; };
+		DB74F49E21A5D15E0078AD86 /* StringContains.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB74F49D21A5D15E0078AD86 /* StringContains.swift */; };
 		DB7AFB332191A35A00ABC1F4 /* PMNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7AFB322191A35A00ABC1F4 /* PMNumber.swift */; };
 		DB7AFB352191A60500ABC1F4 /* PrimeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7AFB342191A60500ABC1F4 /* PrimeNumber.swift */; };
 		DB7AFB372191A9EE00ABC1F4 /* SeatingArrangement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7AFB362191A9EE00ABC1F4 /* SeatingArrangement.swift */; };
@@ -41,6 +42,7 @@
 		DB546BB92194171C00685C3E /* TinyURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyURL.swift; sourceTree = "<group>"; };
 		DB74F49921A5C6A10078AD86 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		DB74F49B21A5CA050078AD86 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		DB74F49D21A5D15E0078AD86 /* StringContains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringContains.swift; sourceTree = "<group>"; };
 		DB7AFB322191A35A00ABC1F4 /* PMNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMNumber.swift; sourceTree = "<group>"; };
 		DB7AFB342191A60500ABC1F4 /* PrimeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeNumber.swift; sourceTree = "<group>"; };
 		DB7AFB362191A9EE00ABC1F4 /* SeatingArrangement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatingArrangement.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				E1D0A46B21A414A7006AC446 /* ArrayPairSum.swift */,
 				DB74F49921A5C6A10078AD86 /* Queue.swift */,
 				DB74F49B21A5CA050078AD86 /* Stack.swift */,
+				DB74F49D21A5D15E0078AD86 /* StringContains.swift */,
 			);
 			path = DSwithSwift;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				DB7AFB3C2191CBF000ABC1F4 /* TwoStrings.swift in Sources */,
 				DB74F49A21A5C6A10078AD86 /* Queue.swift in Sources */,
 				DB74F49C21A5CA050078AD86 /* Stack.swift in Sources */,
+				DB74F49E21A5D15E0078AD86 /* StringContains.swift in Sources */,
 				DB10E2142195C494007C9602 /* StringStartEnd.swift in Sources */,
 				DB2EFD4B21904CC900C08A9F /* main.swift in Sources */,
 				DB7AFB352191A60500ABC1F4 /* PrimeNumber.swift in Sources */,
