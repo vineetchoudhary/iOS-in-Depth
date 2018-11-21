@@ -1,11 +1,3 @@
-//
-//  BinarySearch.swift
-//  DSwithSwift
-//
-//  Created by Vineet Choudhary on 22/11/18.
-//  Copyright © 2018 Developer Insider. All rights reserved.
-//
-
 import Foundation
 
 func BinarySearch<T: Comparable>(array: [T], item: T, range: Range<Int>) -> Int? {

@@ -26,7 +26,6 @@ extension BinaryTree: CustomStringConvertible {
     
     private func newTreeWithInsertedValue(newValue: T)-> BinaryTree {
         switch self {
-            
         case .empty:
             return .node(.empty, newValue, .empty)
         case let .node(left, value, right):
@@ -34,6 +33,21 @@ extension BinaryTree: CustomStringConvertible {
                 return .node(left.newTreeWithInsertedValue(newValue: newValue), value, right)
             } else {
                 return .node(left, value, right.newTreeWithInsertedValue(newValue: newValue))
+            }
+        }
+    }
+    
+    public func search(searchValue: T)-> BinaryTree? {
+        switch self {
+        case .empty:
+            return nil
+        case let .node(left, value, right):
+            if value > searchValue {
+                return left.search(searchValue: searchValue)
+            } else if value < searchValue {
+                return right.search(searchValue: searchValue)
+            } else {
+                return self
             }
         }
     }
@@ -52,7 +66,9 @@ func startBT()
     binaryTree.insert(newValue: 9)
     binaryTree.insert(newValue: 1)
     binaryTree.insert(newValue: 6)
-    
     print(binaryTree)
+    
+    let searchTree = binaryTree.search(searchValue: 5)
+    print(searchTree)
 
 }
