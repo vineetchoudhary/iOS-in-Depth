@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Swift.xcodeproj">
+      location = "self:/Users/vineetchoudhary/iOS-in-Depth/Swift/DSwithSwift.xcodeproj">
    </FileRef>
 </Workspace>

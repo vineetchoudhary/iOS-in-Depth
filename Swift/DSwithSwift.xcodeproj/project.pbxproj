@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		DB03AAA421A33F920030F01E /* BunaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunaryTree.swift; sourceTree = "<group>"; };
 		DB10E2132195C494007C9602 /* StringStartEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringStartEnd.swift; sourceTree = "<group>"; };
-		DB2EFD4721904CC800C08A9F /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2EFD4721904CC800C08A9F /* DSwithSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DSwithSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB2EFD4A21904CC900C08A9F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DB546BB92194171C00685C3E /* TinyURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyURL.swift; sourceTree = "<group>"; };
 		DB74F49921A5C6A10078AD86 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		DB2EFD3E21904CC800C08A9F = {
 			isa = PBXGroup;
 			children = (
-				DB2EFD4921904CC800C08A9F /* test */,
+				DB2EFD4921904CC800C08A9F /* DSwithSwift */,
 				DB2EFD4821904CC800C08A9F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,12 +72,12 @@
 		DB2EFD4821904CC800C08A9F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB2EFD4721904CC800C08A9F /* test */,
+				DB2EFD4721904CC800C08A9F /* DSwithSwift */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DB2EFD4921904CC800C08A9F /* test */ = {
+		DB2EFD4921904CC800C08A9F /* DSwithSwift */ = {
 			isa = PBXGroup;
 			children = (
 				DB2EFD4A21904CC900C08A9F /* main.swift */,
@@ -94,15 +94,15 @@
 				DB74F49921A5C6A10078AD86 /* Queue.swift */,
 				DB74F49B21A5CA050078AD86 /* Stack.swift */,
 			);
-			path = test;
+			path = DSwithSwift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DB2EFD4621904CC800C08A9F /* test */ = {
+		DB2EFD4621904CC800C08A9F /* DSwithSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB2EFD4E21904CC900C08A9F /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = DB2EFD4E21904CC900C08A9F /* Build configuration list for PBXNativeTarget "DSwithSwift" */;
 			buildPhases = (
 				DB2EFD4321904CC800C08A9F /* Sources */,
 				DB2EFD4421904CC800C08A9F /* Frameworks */,
@@ -112,9 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = test;
+			name = DSwithSwift;
 			productName = test;
-			productReference = DB2EFD4721904CC800C08A9F /* test */;
+			productReference = DB2EFD4721904CC800C08A9F /* DSwithSwift */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +132,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DB2EFD4221904CC800C08A9F /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = DB2EFD4221904CC800C08A9F /* Build configuration list for PBXProject "DSwithSwift" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB2EFD4621904CC800C08A9F /* test */,
+				DB2EFD4621904CC800C08A9F /* DSwithSwift */,
 			);
 		};
 /* End PBXProject section */
@@ -314,7 +314,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DB2EFD4221904CC800C08A9F /* Build configuration list for PBXProject "test" */ = {
+		DB2EFD4221904CC800C08A9F /* Build configuration list for PBXProject "DSwithSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB2EFD4C21904CC900C08A9F /* Debug */,
@@ -323,7 +323,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB2EFD4E21904CC900C08A9F /* Build configuration list for PBXNativeTarget "test" */ = {
+		DB2EFD4E21904CC900C08A9F /* Build configuration list for PBXNativeTarget "DSwithSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB2EFD4F21904CC900C08A9F /* Debug */,
